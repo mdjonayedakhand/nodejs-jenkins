@@ -16,7 +16,7 @@ pipeline {
                 sh 'npm install'
 
                 // Build your Node.js application (replace with your build command)
-                sh 'npm run build' // Or 'npm run production', etc.
+                sh 'npm run dev' // Or 'npm run production', etc.
 
                 // Optionally, archive build artifacts
                 // archiveArtifacts 'dist/**' // Example
